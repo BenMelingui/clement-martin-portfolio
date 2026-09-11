@@ -4,6 +4,7 @@ import Link from "next/link"
 import { ArrowLeft, Download, Video, Calendar, Layers, CheckCircle2 } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
+import ProjectGallery from "./ProjectGallery"
 
 interface PageProps {
   params: Promise<{ slug: string }>
@@ -128,23 +129,10 @@ export default async function ProjectDetailPage({ params }: PageProps) {
           </div>
         </div>
 
-        {/* Galerie de Screenshots */}
+        {/* Galerie de Screenshots interactive (Lightbox) */}
         <div className="mb-16">
           <h2 className="text-2xl font-bold mb-6">Galerie du jeu</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {project.screenshots.map((src, index) => (
-              <div
-                key={index}
-                className="group relative aspect-video rounded-2xl overflow-hidden border border-border bg-card shadow-sm hover:shadow-lg transition-all duration-300"
-              >
-                <img
-                  src={src}
-                  alt={`${project.title} screenshot ${index + 1}`}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-            ))}
-          </div>
+          <ProjectGallery screenshots={project.screenshots} title={project.title} />
         </div>
 
         {/* Footer info */}
