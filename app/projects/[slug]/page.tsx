@@ -114,7 +114,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
                 <Layers className="w-5 h-5 text-primary" />
                 Technologies
               </h2>
-              <div className="flex flex-wrap gap-2 mb-8">
+              <div className="flex flex-wrap gap-2">
                 {project.stack.map((tech) => (
                   <span
                     key={tech}
@@ -125,18 +125,6 @@ export default async function ProjectDetailPage({ params }: PageProps) {
                 ))}
               </div>
             </div>
-
-            <a
-              href={project.downloadUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full"
-            >
-              <Button variant="outline" className="w-full rounded-xl gap-2">
-                <Download className="w-4 h-4" />
-                Lien officiel Créajeux
-              </Button>
-            </a>
           </div>
         </div>
 
