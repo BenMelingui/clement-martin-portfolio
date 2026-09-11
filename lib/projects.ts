@@ -71,7 +71,7 @@ export const projectsData: Project[] = [
       "Support Manette : Développement et intégration des entrées manette pour un gameplay fluide et réactif.",
       "UI & Immersion : Conception d’un menu immersif et gestion des états de jeu (Game Loop)."
     ],
-    youtubeId: "dQw4w9WgXcQ",
+    youtubeId: "0cjZGvxaDnM",
     screenshots: [
       "https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?q=80&w=1200&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1551103782-8ab07afd45c1?q=80&w=1200&auto=format&fit=crop",
