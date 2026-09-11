@@ -22,8 +22,6 @@ export default function ProjectsSection() {
             <ScrollReveal key={project.slug} delay={i * 0.15} direction="left">
               <Link
                 href={`/projects/${project.slug}`}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="block group"
               >
                 <div className="relative p-8 rounded-3xl bg-card border border-border hover:border-primary/50 transition-all duration-500 overflow-hidden shadow-sm hover:shadow-xl">
