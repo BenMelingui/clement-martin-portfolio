@@ -13,8 +13,8 @@ export default function ParticleField() {
     if (!ctx) return
 
     let animationFrameId: number
-    let w: number
-    let h: number
+    let w = window.innerWidth
+    let h = window.innerHeight
 
     const resize = () => {
       w = canvas.width = window.innerWidth

@@ -2,12 +2,12 @@
 
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
-import { ChevronDown, Gamepad2 } from "lucide-react"
+import { ChevronDown, Gamepad2, Mail, Phone } from "lucide-react"
 
 export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-start px-8 lg:px-20">
-      <div className="max-w-2xl z-10">
+      <div className="max-w-3xl z-10">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -16,7 +16,7 @@ export default function HeroSection() {
           <div className="flex items-center gap-2 mb-6">
             <Gamepad2 className="w-5 h-5 text-primary" />
             <span className="text-sm font-medium text-muted-foreground tracking-widest uppercase">
-              Game Developer Student
+              Programmeur Junior — Jeux Vidéo
             </span>
           </div>
 
@@ -26,26 +26,41 @@ export default function HeroSection() {
           </h1>
 
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-            Étudiant en école de jeu vidéo. Passionné par le game design, 
-            le développement et la compétition sur Overwatch.
+            Étudiant en programmation de jeux vidéo à Créajeux, travaillant en particulier sur le moteur Unity.
+            Passionné par les défis, il a renforcé son esprit d’équipe lors de la Global Game Jam.
           </p>
 
-          <div className="flex gap-4">
-              <Button 
-                size="lg" 
-                className="rounded-full px-8"
-                onClick={() => {
-                  const el = document.getElementById("projects")
-                  if (el) {
-                    window.scrollTo({
-                      top: el.offsetTop - 20,
-                      behavior: "smooth"
-                    })
-                  }
-                }}
-              >
-                Voir mes projets
+          <div className="flex flex-wrap items-center gap-4 mb-10">
+            <a href="mailto:clementmartin0907@gmail.com">
+              <Button variant="outline" size="lg" className="rounded-full gap-2">
+                <Mail className="w-4 h-4 text-primary" />
+                clementmartin0907@gmail.com
               </Button>
+            </a>
+            <a href="tel:0783415222">
+              <Button variant="outline" size="lg" className="rounded-full gap-2">
+                <Phone className="w-4 h-4 text-primary" />
+                07 83 41 52 22
+              </Button>
+            </a>
+          </div>
+
+          <div className="flex gap-4">
+            <Button
+              size="lg"
+              className="rounded-full px-8"
+              onClick={() => {
+                const el = document.getElementById("projects")
+                if (el) {
+                  window.scrollTo({
+                    top: el.offsetTop - 20,
+                    behavior: "smooth"
+                  })
+                }
+              }}
+            >
+              Voir mes projets
+            </Button>
           </div>
         </motion.div>
 
