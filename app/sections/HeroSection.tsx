@@ -40,7 +40,7 @@ export default function HeroSection() {
             <a href="tel:0783415222">
               <Button variant="outline" size="lg" className="rounded-full gap-2">
                 <Phone className="w-4 h-4 text-primary" />
-                67 67 67 67 67
+                07 83 41 52 22
               </Button>
             </a>
           </div>
