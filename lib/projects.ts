@@ -73,9 +73,9 @@ export const projectsData: Project[] = [
     ],
     youtubeId: "0cjZGvxaDnM",
     screenshots: [
+      "https://www.creajeux.fr/wp-content/uploads/2026/01/Capture4-1024x576.png",
       "https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1551103782-8ab07afd45c1?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1551103782-8ab07afd45c1?q=80&w=1200&auto=format&fit=crop"
     ],
     downloadUrl: "https://creajeux.fr",
     color: "bg-emerald-500/10 text-emerald-500 border-emerald-500/20",
