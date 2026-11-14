@@ -27,7 +27,7 @@ export const projectsData: Project[] = [
       "Système de compétences : Développement complet d'un arbre de compétences modulaires.",
       "Performance & Debugging : Optimisation approfondie du code, gestion des draw calls et résolution des goulots d'étranglement."
     ],
-    youtubeId: "dQw4w9WgXcQ", // Placeholder video ID
+    youtubeId: "8ZHNlsrWzFA", // Placeholder video ID
     screenshots: [
       "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1200&auto=format&fit=crop",

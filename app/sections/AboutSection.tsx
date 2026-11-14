@@ -17,7 +17,6 @@ export default function AboutSection() {
           <p className="text-lg text-muted-foreground leading-relaxed mb-16 max-w-3xl">
             Étudiant passionné en programmation de jeux vidéo à Créajeux, avec une forte appétence
             pour le développement sous Unity et la conception de systèmes de gameplay robustes.
-            Rigoureux, ponctuel et doté d'un solide esprit d'équipe forgé en game jam et en milieu professionnel.
           </p>
         </ScrollReveal>
 
