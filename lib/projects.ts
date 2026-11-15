@@ -73,9 +73,9 @@ export const projectsData: Project[] = [
     ],
     youtubeId: "0cjZGvxaDnM",
     screenshots: [
-      "/images/Capture9.png",
+      "/images/Capture1.png",
       "/images/Capture4.png",
-      "/images/Capture11.png"
+      "/images/Capture6.png"
     ],
     downloadUrl: "https://www.creajeux.fr/projet/heavens-doom/",
     color: "bg-emerald-500/10 text-emerald-500 border-emerald-500/20",
