@@ -97,7 +97,7 @@ export default async function ProjectDetailPage({ params }: PageProps) {
           <div className="md:col-span-2 p-8 rounded-3xl bg-card border border-border">
             <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
               <CheckCircle2 className="w-6 h-6 text-primary" />
-              Rôle et Contributions de Clément
+              Rôle et Contributions
             </h2>
             <ul className="space-y-4 text-muted-foreground">
               {project.realizations.map((item, index) => (

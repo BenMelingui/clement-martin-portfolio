@@ -20,7 +20,7 @@ export const projectsData: Project[] = [
     period: "Janvier - Mai 2026",
     year: "Projet 3ème année Créajeux",
     type: "FPS Photoréaliste",
-    stack: ["Unity", "C#"],
+    stack: ["Unity HDRP", "C#"],
     description: "FPS photoréaliste immersif développé dans le cadre de la 3ème année à Créajeux, mettant l'accent sur les sensations de tir, la tension et l'optimisation graphique.",
     realizations: [
       "Programmation Gameplay : Conception et intégration d'un contrôleur de personnage fluide et réactif.",
@@ -30,10 +30,10 @@ export const projectsData: Project[] = [
     youtubeId: "8ZHNlsrWzFA", // Placeholder video ID
     screenshots: [
       "/images/Image1.png",
-      "/images/Image2.png",
-      "/images/Image3.png"
+      "/images/Image4.png",
+      "/images/Image9.png"
     ],
-    downloadUrl: "https://creajeux.fr",
+    downloadUrl: "https://www.creajeux.fr/projet/escape-moscow/",
     color: "bg-blue-500/10 text-blue-500 border-blue-500/20",
   },
   {
