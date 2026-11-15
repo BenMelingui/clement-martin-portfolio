@@ -76,21 +76,23 @@ export default async function ProjectDetailPage({ params }: PageProps) {
         </div>
 
         {/* Vidéo YouTube / Trailer */}
-        <div className="mb-16">
-          <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
-            <Video className="w-6 h-6 text-red-500" />
-            Trailer & Gameplay
-          </h2>
-          <div className="relative aspect-video rounded-3xl overflow-hidden border border-border bg-card shadow-lg">
-            <iframe
-              src={`https://www.youtube-nocookie.com/embed/${project.youtubeId}`}
-              title={`${project.title} Trailer`}
-              className="absolute inset-0 w-full h-full"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
+        {project.youtubeId && (
+          <div className="mb-16">
+            <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
+              <Video className="w-6 h-6 text-red-500" />
+              Trailer & Gameplay
+            </h2>
+            <div className="relative aspect-video rounded-3xl overflow-hidden border border-border bg-card shadow-lg">
+              <iframe
+                src={`https://www.youtube-nocookie.com/embed/${project.youtubeId}`}
+                title={`${project.title} Trailer`}
+                className="absolute inset-0 w-full h-full"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Rôle & Contributions / Réalisations */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">

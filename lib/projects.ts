@@ -49,7 +49,7 @@ export const projectsData: Project[] = [
       "Interface Mobile : Implémentation d’un contrôleur tactile intuitif et ergonomique adapté aux écrans mobiles.",
       "Équilibrage et fluidité : Suivi des performances sur divers devices mobiles."
     ],
-    youtubeId: "dQw4w9WgXcQ",
+    youtubeId: "",
     screenshots: [
       "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1612287233002-ef1d016f5c88?q=80&w=1200&auto=format&fit=crop",
