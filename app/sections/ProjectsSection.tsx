@@ -14,7 +14,7 @@ export default function ProjectsSection() {
         <ScrollReveal>
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">Projets</h2>
           <p className="text-muted-foreground mb-16 max-w-xl">
-            aa
+            Différents projets que j'ai pu réaliser lors de mon parcours.
           </p>
         </ScrollReveal>
 
