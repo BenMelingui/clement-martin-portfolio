@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge"
 import { Calendar, ExternalLink } from "lucide-react"
 import { projectsData } from "@/lib/projects"
 import Link from "next/link"
+import Image from "next/image"
 
 export default function ProjectsSection() {
   return (
@@ -28,6 +29,16 @@ export default function ProjectsSection() {
                   <div className="absolute inset-0 bg-gradient-to-r from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
 
                   <div className="relative flex flex-col gap-6">
+                    <div className="relative aspect-video overflow-hidden rounded-2xl border border-border bg-muted">
+                      <Image
+                        src={project.screenshots[0]}
+                        alt={`Preview de ${project.title}`}
+                        fill
+                        className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        sizes="(max-width: 1024px) 100vw, 960px"
+                      />
+                    </div>
+
                     <div className="flex flex-wrap items-center justify-between gap-4">
                       <div className="flex items-center gap-3">
                         <Badge variant="secondary" className={project.color}>
