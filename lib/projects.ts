@@ -55,7 +55,7 @@ export const projectsData: Project[] = [
       "/images/Pulsar2.jpg",
       "/images/Pulsar3.jpg"
     ],
-    downloadUrl: "https://creajeux.fr",
+    downloadUrl: "",
     color: "bg-purple-500/10 text-purple-500 border-purple-500/20",
   },
   {
@@ -78,6 +78,28 @@ export const projectsData: Project[] = [
       "https://images.unsplash.com/photo-1551103782-8ab07afd45c1?q=80&w=1200&auto=format&fit=crop"
     ],
     downloadUrl: "https://creajeux.fr",
+    color: "bg-emerald-500/10 text-emerald-500 border-emerald-500/20",
+  },
+    {
+    slug: "soulbound",
+    title: "Soulbound",
+    period: "Janvier - Mai 2024",
+    year: "Projet 1ème année Créajeux",
+    type: "Platformer 2D",
+    stack: ["CSFML", "C"],
+    description: "SoulBound est un jeu qui mélange exploration et combats à travers une grande carte faite pour donner au joueur une sensation de liberté, avec de nombreuses routes possibles, différentes et variées à emprunter",
+    realizations: [
+      "Programmation Gameplay : Conception murs destructibles et gestion des objets ramassables.",
+      "Programmation IA : Développement des ennemis du jeu .",
+      "UI & Immersion : Conception d’un menu immersif et gestion des états de jeu (Game Loop)."
+    ],
+    youtubeId: "0cjZGvxaDnM",
+    screenshots: [
+      "https://www.creajeux.fr/wp-content/uploads/2026/01/captures-4.webp",
+      "/images/soulbound1.png",
+      "/images/soulbound2.png"
+    ],
+    downloadUrl: "https://www.creajeux.fr/projet/soulbound/",
     color: "bg-emerald-500/10 text-emerald-500 border-emerald-500/20",
   },
 ]

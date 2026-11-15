@@ -13,13 +13,13 @@ const skillCategories = [
   {
     icon: Cpu,
     title: "Moteurs & Frameworks",
-    items: ["Unity", "SFML"],
+    items: ["Unity","Unreal Engine" ,"SFML"],
     color: "bg-purple-500/10 text-purple-500 border-purple-500/20",
   },
   {
     icon: Wrench,
     title: "Outils & Versioning",
-    items: ["TortoiseSVN", "Visual Studio", "Git"],
+    items: ["TortoiseSVN", "Visual Studio", "Git", "Rider"],
     color: "bg-emerald-500/10 text-emerald-500 border-emerald-500/20",
   },
   {
