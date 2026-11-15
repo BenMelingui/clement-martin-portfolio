@@ -29,9 +29,9 @@ export const projectsData: Project[] = [
     ],
     youtubeId: "8ZHNlsrWzFA", // Placeholder video ID
     screenshots: [
-      "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?q=80&w=1200&auto=format&fit=crop"
+      "/images/Image1.png",
+      "/images/Image2.png",
+      "/images/Image3.png"
     ],
     downloadUrl: "https://creajeux.fr",
     color: "bg-blue-500/10 text-blue-500 border-blue-500/20",
