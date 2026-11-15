@@ -23,9 +23,11 @@ export const projectsData: Project[] = [
     stack: ["Unity HDRP", "C#"],
     description: "FPS photoréaliste immersif, mettant l'accent sur les sensations de tir, la tension et l'optimisation graphique.",
     realizations: [
-      "Programmation Gameplay : Conception et intégration d'un contrôleur de personnage fluide et réactif.",
-      "Système de compétences : Développement complet d'un arbre de compétences modulaires.",
-      "Performance & Debugging : Optimisation approfondie du code, gestion des draw calls et résolution des goulots d'étranglement."
+      "Programmation Gameplay : Conception d'un système bullet time (Sniper Elite).",
+      "Système de compétences : Développement d'un arbre de compétences modulaires via ScriptableObjects.",
+      "Shaders : Création de shaders pour l'animation de mouvement d'algues et des effets de surbrillance pour les objets intéractibles (Shader Graph).",
+      "Tools : Création d'outils pour placer plus facilement des objets dans la scène.",
+      "Audio : Implémentation dynamique de l'audio pour le joueur et ses armes."
     ],
     youtubeId: "8ZHNlsrWzFA", // Placeholder video ID
     screenshots: [
