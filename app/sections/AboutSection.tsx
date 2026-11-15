@@ -15,8 +15,9 @@ export default function AboutSection() {
 
         <ScrollReveal delay={0.1}>
           <p className="text-lg text-muted-foreground leading-relaxed mb-16 max-w-3xl">
-            Étudiant passionné en programmation de jeux vidéo à Créajeux, avec une forte appétence
-            pour le développement sous Unity et la conception de systèmes de gameplay robustes.
+           Mon parcours à Créajeux m’a permis de développer des jeux variés (FPS, Platformer, Fighting Game, Jeu
+          Mobile) en utilisant Unity, Unreal Engine et SFML. J'ai acquis une maîtrise de l'intégration d’UI, de
+          la programmation d’IA (Minimax, Alpha-Beta) et du multijoueur Unity haut niveau (NGO).
           </p>
         </ScrollReveal>
 
@@ -66,7 +67,7 @@ export default function AboutSection() {
                 <Heart className="w-10 h-10 text-primary mb-4 group-hover:scale-110 transition-transform" />
                 <h3 className="text-xl font-semibold mb-4">Centres d'intérêt</h3>
                 <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>Jeux vidéo en compétition</li>
+                  <li>Jeux vidéo en compétition (Overwatch)</li>
                   <li>Cinéma</li>
                   <li>Jeux de société</li>
                 </ul>

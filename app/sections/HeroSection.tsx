@@ -26,8 +26,7 @@ export default function HeroSection() {
           </h1>
 
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-            Étudiant en programmation de jeux vidéo à Créajeux, travaillant en particulier sur le moteur Unity.
-            Passionné par les défis, il a renforcé son esprit d’équipe lors de la Global Game Jam.
+            Développeur de jeux vidéo sur Unity et Unreal Engine, spécialisé en C++ et C#.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 mb-10">

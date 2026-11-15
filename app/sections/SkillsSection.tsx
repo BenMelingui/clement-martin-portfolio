@@ -19,7 +19,7 @@ const skillCategories = [
   {
     icon: Wrench,
     title: "Outils & Versioning",
-    items: ["TortoiseSVN", "Visual Studio"],
+    items: ["TortoiseSVN", "Visual Studio", "Git"],
     color: "bg-emerald-500/10 text-emerald-500 border-emerald-500/20",
   },
   {
@@ -37,7 +37,7 @@ const skillCategories = [
   {
     icon: Users,
     title: "Soft Skills",
-    items: ["Travail en équipe", "Rigueur", "Ponctualité"],
+    items: ["Travail en équipe", "Rigueur", "Ponctualité", "Méthode Agile"],
     color: "bg-cyan-500/10 text-cyan-500 border-cyan-500/20",
   },
 ]

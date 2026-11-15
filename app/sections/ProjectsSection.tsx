@@ -12,9 +12,9 @@ export default function ProjectsSection() {
     <section id="projects" className="relative py-32 px-8 lg:px-20 bg-muted/30">
       <div className="max-w-5xl mx-auto">
         <ScrollReveal>
-          <h2 className="text-4xl lg:text-5xl font-bold mb-4">Projets académiques</h2>
+          <h2 className="text-4xl lg:text-5xl font-bold mb-4">Projets</h2>
           <p className="text-muted-foreground mb-16 max-w-xl">
-            Réalisations majeures issues de mon parcours à Créajeux, alliant gameplay, architecture et performance. Cliquez sur un projet pour voir les détails.
+            aa
           </p>
         </ScrollReveal>
 

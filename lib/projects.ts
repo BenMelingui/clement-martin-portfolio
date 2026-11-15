@@ -51,9 +51,9 @@ export const projectsData: Project[] = [
     ],
     youtubeId: "",
     screenshots: [
-      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1612287233002-ef1d016f5c88?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1200&auto=format&fit=crop"
+      "/images/Pulsar1.png",
+      "/images/Pulsar2.png",
+      "/images/Pulsar3.png"
     ],
     downloadUrl: "https://creajeux.fr",
     color: "bg-purple-500/10 text-purple-500 border-purple-500/20",
