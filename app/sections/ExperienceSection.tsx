@@ -8,17 +8,9 @@ const experiences = [
     title: "Global Game Jam",
     location: "Toulon",
     period: "Janvier 2026",
-    role: "Développeur Gameplay (Événement)",
+    role: "Programmeur Gameplay",
     description: "Création d’un jeu vidéo sur Unity en un week-end avec une équipe de programmeurs et graphistes.",
-    bullet: "Développement des mécaniques de gameplay principales, dont une IA via le NavMesh d’Unity."
-  },
-  {
-    title: "Agent d’accueil en station RATP",
-    location: "Paris, CDG Étoile",
-    period: "Juillet / Août 2024",
-    role: "Agent d'accueil (Job d'été)",
-    description: "Accueil et orientation des voyageurs étrangers et vente de titres de transport.",
-    bullet: "Mission menée lors des Jeux Olympiques de Paris 2024."
+    bullet: "Développement des mécaniques de gameplay principales, dont une IA via le NavMesh d’Unity et utilisation des splines d'Unity."
   },
   {
     title: "Stage d’été de programmation jeux vidéo",
@@ -37,7 +29,7 @@ export default function ExperienceSection() {
         <ScrollReveal>
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">Expériences & Événements</h2>
           <p className="text-muted-foreground mb-16 max-w-xl">
-            Implication dans la communauté, game jams et expériences professionnelles.
+            Game Jam et expériences professionnelles.
           </p>
         </ScrollReveal>
 

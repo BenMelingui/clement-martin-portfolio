@@ -68,7 +68,7 @@ export const projectsData: Project[] = [
     description: "Jeu de combat 2D nerveux et compétitif développé from scratch en C++ avec la bibliothèque SFML.",
     realizations: [
       "Architecture : Conception des différents joueurs/personnages via polymorphisme et héritage.",
-      "Programmation Gameplay : Implémation des capacités liées au personnage Witch et gestion de des inputs manettes.",
+      "Programmation Gameplay : Implémation des capacités liées au personnage Witch et gestion des inputs manettes.",
       "UI : Conception d’un menu immersif et interactible."
     ],
     youtubeId: "0cjZGvxaDnM",
