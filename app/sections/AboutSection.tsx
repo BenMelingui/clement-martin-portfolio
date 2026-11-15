@@ -31,7 +31,7 @@ export default function AboutSection() {
                 <ul className="space-y-3 text-sm text-muted-foreground">
                   <li>
                     <strong className="text-foreground">Créajeux</strong> <br />
-                    Programmeur jeux vidéo (De 2023 à aujourd’hui)
+                    Programmeur jeux vidéo (de 2023 à aujourd’hui)
                   </li>
                   <li className="pt-2 border-t border-border">
                     <strong className="text-foreground">Baccalauréat</strong> <br />

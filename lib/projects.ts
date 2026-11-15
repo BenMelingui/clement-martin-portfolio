@@ -21,7 +21,7 @@ export const projectsData: Project[] = [
     year: "Projet 3ème année Créajeux",
     type: "FPS Photoréaliste",
     stack: ["Unity HDRP", "C#"],
-    description: "FPS photoréaliste immersif développé dans le cadre de la 3ème année à Créajeux, mettant l'accent sur les sensations de tir, la tension et l'optimisation graphique.",
+    description: "FPS photoréaliste immersif, mettant l'accent sur les sensations de tir, la tension et l'optimisation graphique.",
     realizations: [
       "Programmation Gameplay : Conception et intégration d'un contrôleur de personnage fluide et réactif.",
       "Système de compétences : Développement complet d'un arbre de compétences modulaires.",
@@ -89,7 +89,7 @@ export const projectsData: Project[] = [
     stack: ["CSFML", "C"],
     description: "SoulBound est un jeu qui mélange exploration et combats à travers une grande carte faite pour donner au joueur une sensation de liberté, avec de nombreuses routes possibles, différentes et variées à emprunter",
     realizations: [
-      "Programmation Gameplay : Conception murs destructibles et gestion des objets ramassables.",
+      "Programmation Gameplay : Conception des murs destructibles et gestion des objets ramassables.",
       "Programmation IA : Développement des ennemis du jeu : IA de patrouille, poursuite et attaque.",
       "UI : Conception d’un menu d'inventaire et de pause.",
       "Optimisation : Gestion de la mémoire en ne chargeant que les objets que l'on voit."
