@@ -67,17 +67,17 @@ export const projectsData: Project[] = [
     stack: ["SFML", "C++"],
     description: "Jeu de combat 2D nerveux et compétitif développé from scratch en C++ avec la bibliothèque SFML.",
     realizations: [
-      "Architecture logicielle : Conception modulaire des systèmes de combat et des hitbox/hurtbox.",
-      "Support Manette : Développement et intégration des entrées manette pour un gameplay fluide et réactif.",
-      "UI & Immersion : Conception d’un menu immersif et gestion des états de jeu (Game Loop)."
+      "Architecture : Conception des différents joueurs/personnages via polymorphisme et héritage.",
+      "Programmation Gameplay : Implémation des capacités liées au personnage Witch et gestion de des inputs manettes.",
+      "UI : Conception d’un menu immersif et interactible."
     ],
     youtubeId: "0cjZGvxaDnM",
     screenshots: [
-      "https://www.creajeux.fr/wp-content/uploads/2026/01/Capture4-1024x576.png",
-      "https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1551103782-8ab07afd45c1?q=80&w=1200&auto=format&fit=crop"
+      "/images/Capture9.png",
+      "/images/Capture4.png",
+      "/images/Capture11.png"
     ],
-    downloadUrl: "https://creajeux.fr",
+    downloadUrl: "https://www.creajeux.fr/projet/heavens-doom/",
     color: "bg-emerald-500/10 text-emerald-500 border-emerald-500/20",
   },
     {
@@ -90,17 +90,18 @@ export const projectsData: Project[] = [
     description: "SoulBound est un jeu qui mélange exploration et combats à travers une grande carte faite pour donner au joueur une sensation de liberté, avec de nombreuses routes possibles, différentes et variées à emprunter",
     realizations: [
       "Programmation Gameplay : Conception murs destructibles et gestion des objets ramassables.",
-      "Programmation IA : Développement des ennemis du jeu .",
-      "UI & Immersion : Conception d’un menu immersif et gestion des états de jeu (Game Loop)."
+      "Programmation IA : Développement des ennemis du jeu : IA de patrouille, poursuite et attaque.",
+      "UI : Conception d’un menu d'inventaire et de pause.",
+      "Optimisation : Gestion de la mémoire en ne chargeant que les objets que l'on voit."
     ],
-    youtubeId: "0cjZGvxaDnM",
+    youtubeId: "51VyEXqlCKQ",
     screenshots: [
-      "https://www.creajeux.fr/wp-content/uploads/2026/01/captures-4.webp",
       "/images/soulbound1.png",
+      "https://www.creajeux.fr/wp-content/uploads/2026/01/captures-4.webp",
       "/images/soulbound2.png"
     ],
     downloadUrl: "https://www.creajeux.fr/projet/soulbound/",
-    color: "bg-emerald-500/10 text-emerald-500 border-emerald-500/20",
+    color: "bg-orange-500/10 text-orange-500 border-orange-500/20",
   },
 ]
 
